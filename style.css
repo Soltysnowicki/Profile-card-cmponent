@@ -8,22 +8,23 @@ body{
     background-color: #19A1AE;
     justify-content: center;
     align-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
 }
 
 main{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: #FFFFFF;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-position: top;
+    background-repeat: no-repeat;
     width: 350px;
     height: 374px;
     margin: 173px 545px;
     border-radius: 15px;
-}
-
-#bcg-card{
-    position:relative;
 }
 
 #avatar{
@@ -31,6 +32,44 @@ main{
     height: 96px;
     border: 5px solid #FFFFFF;
     border-radius: 100%;
+    margin-top: 60px;
+}
+
+data{
+ font-weight: 700;
+ 
+}
+
+#age{
+    font-weight: 400;
+    color: #6B7082;
+}
+
+.city{
+    margin-top: 8px;
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.city{
+    font-size: 14px;
+}
+.elements{
+    font-size: 10px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-top: #E8E9EC 1px solid;
+    margin-top: 50px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
